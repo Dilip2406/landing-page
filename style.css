@@ -41,10 +41,10 @@ body{
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
     flex-basis: 300px;
     align-items: center;
+    padding:25px;
+    padding-right: 10%;
 
     
 
@@ -55,19 +55,46 @@ body{
     margin-right: 10%;
 }
 .signup{
-    margin-left: 5%;
     
+    padding: 25px;
+    padding-left: 10%; 
+    flex:1 1 auto;
+}
+.inp{
+    background-color:#3882F6;
+    border:5px;
+    border-radius:10px;
+    color: #E5E7EB;
+    padding:10px;
+    margin:8px;
+    margin-left: 0;
+}
+#1 .inp{
+    border: 3px;
+    border-color: #E5E7EB;
 }
 .signup div{
     font-size: 48px;
     font-weight: bolder;
+    padding:2px; 
 
 }
 .place{
     display: flex;
-    align-items: center;
     margin-left:25px;
-    text-align: center;
+    background-color:grey ;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 700px;
+    height:250px;
+    
+}
+img{
+    border:5px #3882F6;
+    border-radius: 20px;
 }
 .para{
     color: #1F2937;
@@ -76,6 +103,65 @@ body{
     font-weight: bolder;
 
 }
+.para1{
+    font-size: 14px;
+    color:#1F2937;
+    margin-bottom: 35px;
+}
 .content3{
+    display: flex;
     background-color: #E5E7EB;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.content4{
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #E5E7EB
+    
+    
+}
+.calltoa{
+    background-color: #3882F6;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom:7px;
+    padding-top: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:8px;
+    
+    
+}
+.inp.inp1{
+    justify-self: flex-end;
+
+
+}
+#1{
+    display: flex;
+    margin-top: 0;
+    
+}
+#2
+{
+
+}
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    margin:auto 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
 }
