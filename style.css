@@ -118,20 +118,21 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+    
+    
 }
+
+
 
 .content4{
     padding-left: 10%;
     padding-right: 10%;
-    color: #E5E7EB
+    color: #E5E7EB;
     
     
 }
 .calltoa{
-    background-color: #3882F6;
+    background-color: #3882F6; 
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom:7px;
@@ -139,22 +140,49 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius:8px;
+    display: flex;
+    justify-content: center;
+    
     
     
 }
-.inp.inp1{
-    justify-self: flex-end;
-
+.cta1{
+    flex:1;
+    padding: 10px;
 
 }
+.cta2{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.inp2{
+    background-color:#3882F6;
+    border:1px solid #E5E7EB;
+    border-radius:10px;
+    color: #E5E7EB;
+    padding:7px;
+    margin:8px;
+    margin-left: 0;
+    
+}
+
 #1{
     display: flex;
     margin-top: 0;
     
 }
-#2
-{
 
+.quote{
+    font-size: 36px ;
+    font-style:italic;
+    
+    
+}
+.author{
+    font-size: 28px;
+    font-weight: bolder;
 }
 .footer{
     text-align: center;
@@ -163,5 +191,5 @@ img{
     margin:auto 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
